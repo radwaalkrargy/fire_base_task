@@ -37,7 +37,6 @@ class _AuthScreenState extends State<AuthScreen> {
   final _passwordController = TextEditingController();
   final FirebaseAuth _auth = FirebaseAuth.instance;
   User? _currentUser;
-  //String _statusMessage = "";
 
   @override
   void initState() {
